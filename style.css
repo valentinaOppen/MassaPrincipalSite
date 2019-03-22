@@ -42,6 +42,7 @@ div
     padding-left:130px;   
     justify-content: left !important; 
     position:fixed !important;
+    z-index: 2;
 }
 
 a
@@ -121,9 +122,10 @@ a
 
 #textPubTwitter
 {
-    margin: 0px 100px 0px 275px;
+    /* margin: 0px 100px 0px 275px; */
+    margin-left: 17%;
     color:#2F90C5;
-    font-size: 55px;    
+    font-size: 45px;    
 }
 
 #divSitios
