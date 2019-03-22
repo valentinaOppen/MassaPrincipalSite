@@ -1,0 +1,242 @@
+@font-face
+{
+    font-family: chivoBold;
+    src:url(font/Chivo-Bold.otf);
+}
+@font-face
+{
+    font-family: chivoBlack;
+    src:url(font/Chivo-Black.otf);
+}
+
+@font-face
+{
+    font-family: chivoLight;
+    src:url(font/Chivo-Light.otf);
+}
+
+*{
+    border:0;
+    padding: 0;
+    margin:0;   
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    /* font-family: 'Courier New', Courier, monospace; */
+    width: 100%;
+    height: 100vh;
+}
+
+.navBar
+{
+    height:50px;
+    background-color: #696969;
+    color:white;
+    font-family: chivoLight;
+    font-size:15px;
+    padding-left:130px;   
+    justify-content: left !important; 
+    position:fixed !important;
+}
+
+a
+{
+    color:white !important;
+    padding-left:40px;
+    text-decoration: none;
+
+}
+
+#fotoMassa
+{
+    /* height: 100% !important; */
+    background-image: url(img/foto-sm_2.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#imgMassa
+{
+    max-width:100%;
+    max-height:100%;    
+}
+
+#divSergioMassa
+{
+    /* background:rgba(255,255,255,0.5); */
+    background-color: rgba(0, 0, 0, 0.6);
+    background: transparent !important;
+    /* border:solid; */
+    width:100%;
+    
+}
+
+#sergio
+{
+    font-family: chivoLight;
+    background-color:black;
+    color:white;
+    font-size:55px;    
+    padding:0 10px 0 10px !important;
+    position: absolute;
+    z-index: -1;
+}
+
+#massa
+{
+    font-family: chivoBold;
+    color:white;    
+    font-size:80px;   
+    background-color:#8ADBE5;
+    padding:0 8px 0 8px !important; 
+    margin-top:160px;
+    margin-left:150px;
+
+}
+
+#divTextPub
+{
+    display: block;
+    /* border:solid; */
+    width:100%;
+    /* height: 400px;
+    background-image: url */
+}
+
+#textPub
+{
+    font-size: 50px;
+    /* margin: 50px 150px 0px 240px; */
+    width:70%;
+    text-align: center;
+    margin-left:16%;
+    height:70%;
+    text-align: left;
+}
+
+#textPubTwitter
+{
+    margin: 0px 100px 0px 275px;
+    color:#2F90C5;
+    font-size: 55px;    
+}
+
+#divSitios
+{
+    /* border:solid; */
+    width:100%;
+    background-color:#00A0DC;
+    display: block;    
+}
+
+#titleSitios
+{
+    color:white;
+    font-family: chivoBold;
+    font-size:40px;
+    padding:80px 0px 0px 120px;
+}
+
+#divImagenesSitios
+{
+    width:90% !important;
+    margin:5% 0 0 5%;
+    height: 55% !important;
+    padding-top:0px !important;
+    
+}
+
+.divClassImgSitios
+{
+    height:100% !important;
+    width:100% !important;
+    padding:0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgClassSitios
+{
+    border: solid #00C2EA 14px;
+    height: 100% !important;
+}
+
+.divTextOverlay
+{
+  position: absolute;
+  display: inline-block;  
+  left:18%;
+  top:3.8%;
+  height: 92.5%;
+  width: 64.1%;
+  color: white;
+  font-family: chivoLight;  
+  font-size: 15px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #00575E;
+  
+}
+
+.divClassImgSitios:hover .divTextOverlay
+{
+    opacity: 0.6;
+}
+
+.titleOver
+{
+    padding-top:110px;
+    padding-bottom:20px;
+    font-family: chivoBold !important;
+
+}
+
+.hrSitios
+{
+    border:solid 1px;
+    margin:0 20px 0 20px;
+}
+
+.textOver
+{
+    padding:20px 10px 0 10px !important;    
+}
+
+#divFormulario
+{
+        background-color: #00BFDF;
+        display:block !important;
+        position: relative;
+}
+
+#formulario
+{
+    padding:50px 150px 0 150px;    
+}
+
+.form-group
+{
+    height: 50px !important;
+    /* padding:20px 0 20px 0 !important; */
+}
+
+.navBarBottom
+{
+    height:50px;
+    background-color: #696969;
+    color:white;
+    font-family: chivoLight;
+    font-size:15px;
+    padding-left:130px;   
+    justify-content: left !important; 
+    /* position:fixed !important; */
+    position: absolute;
+    left:0;
+    bottom:0;
+}
