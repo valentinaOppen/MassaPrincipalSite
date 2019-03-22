@@ -213,6 +213,15 @@ a
         background-color: #00BFDF;
         display:block !important;
         position: relative;
+        z-index: -1;
+}
+
+#titleFormulario
+{
+    color:white;
+    font-family: chivoBold;
+    font-size:40px;
+    padding:120px 0px 0px 130px;
 }
 
 #formulario
