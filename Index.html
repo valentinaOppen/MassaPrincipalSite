@@ -16,17 +16,22 @@
 </head>
 <body>
     <div class="navBar">
-        <a href="#fotoMassa">INICIO</a>
-        <a href="#divSitios">NUESTROS SITIOS</a>
-        <a href="#divFormulario">SUMATE</a>
-        <a href="https://twitter.com/SergioMassa" target="_blank" style="padding-left:500px !important"><i class="fab fa-twitter"></i></a>
+        <a class="navWeb" href="#fotoMassa">INICIO</a>
+        <a class="navWeb" href="#divSitios">NUESTROS SITIOS</a>
+        <a class="navWeb" href="#divFormulario">SUMATE</a>
+        <a class="navRedes" href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
-    <div id="fotoMassa">
-        <!-- <h2>Div 1</h2> -->
+    <div id="fotoMassa">        
         <!-- <img src="img/foto-sm.JPG" alt=""> -->
+        <!-- <div id="imgMasaInicio"><img src="img/foto-sm_mobile.jpg" alt=""></div> -->
+        <div id="sergioMassaTexto">
+            <h2 id="sergio">Sergio</h2>
+            <h2 id="massa">Massa</h2>
+        </div>
+        
     </div>
     <div id="divSergioMassa">
         <h2 id="sergio">Sergio</h2>
@@ -39,11 +44,13 @@
         </div>
         <h3 id="textPubTwitter">@sergiomassa</h3>            	
     </div>
+
     <div id="divSitios">
         <p id="titleSitios">Visita nuestros sitios</p>
         <div id="divImagenesSitios">
             <div class="divClassImgSitios">
                 <img class="imgClassSitios" src="img/Portadas_Site-04.jpg" alt="Massa Directo">                
+                <img class="imgClassSitiosMobile" src="img/Portadas_Site_Movil_3_op.jpg" alt="Massa Directo">                
                 <div class="divTextOverlay">
                     <p class="titleOver">Massa Directo</p>
                     <hr class="hrSitios">
@@ -54,6 +61,7 @@
             </div>
             <div class="divClassImgSitios">
                 <img class="imgClassSitios" src="img/Portadas_Site_portada.jpg" alt="Argentina de Pie">
+                <img class="imgClassSitiosMobile" src="img/Portadas_Site_movil_1_op.jpg" alt="Argentina de Pie">
                 <div class="divTextOverlay">
                     <p class="titleOver">La Argentina de pie</p>
                     <hr class="hrSitios">
@@ -66,6 +74,7 @@
             </div>
             <div class="divClassImgSitios">
                 <img class="imgClassSitios" src="img/Portadas_Site-03.jpg" alt="Primer Votante">                
+                <img class="imgClassSitiosMobile" src="img/Portadas_Site_Movil_2_op.jpg" alt="Primer Votante">                
                 <div class="divTextOverlay">
                     <p class="titleOver">Primer votante</p>
                     <hr class="hrSitios">
@@ -80,11 +89,7 @@
     </div>
     <div id="divFormulario">
             <p id="titleFormulario" style="margin-left:20px;">Sumate a nuestra alternativa</p>    
-            <form id="formulario">
-                    <!-- <input class="form-control form-control-lg" type="text" placeholder="Nombre">
-                    <input class="form-control form-control-lg" type="text" placeholder="Lugar">
-                    <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Email">
-                    <button type="submit" class="btn btn-primary">ENVIAR</button> -->
+            <form id="formulario">                    
                     <div class="form-group">                    
                         <input class="form-control form-control-lg" type="text" placeholder="Nombre">
                     </div>
@@ -94,15 +99,15 @@
                     <div class="form-group">
                         <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Email">
                     </div>
-                    <button type="submit" class="btn btn-primary" style="background-color:#3B3B3B !important; margin-top:40px">ENVIAR</button>
+                    <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button>
             </form>
 
             <div class="navBarBottom">                   
-                    <a href="https://twitter.com/SergioMassa" target="_blank" style="padding-left:100px !important"><i class="fab fa-twitter"></i></a>
+                    <a id="twitterBottom" href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="" style="padding-left:55%">#HayAlternativa</a>
+                    <a href="" id="hayAlternativa" style="padding-left:55%">#HayAlternativa</a>
             </div>
     </div>           
 

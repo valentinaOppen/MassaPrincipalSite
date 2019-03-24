@@ -1,0 +1,219 @@
+@media screen and (max-width: 600px) 
+{
+
+    body
+    {
+        width:100vw;
+        /* height: 100vh; */
+        /* background-color: red !important; */
+    }
+
+    a
+    {    
+        padding-left:10vw; 
+    }
+
+
+    .navWeb
+    {
+        display:none;
+    }
+
+    .navBar
+    {
+        position: absolute;
+        padding-left:30vw;
+        height: 15vw !important; 
+        width: 100vw;       
+        font-size:4vw;      
+        justify-content: center; 
+    }
+
+    .navRedes
+    {
+        padding-left:0px !important
+    }
+
+
+    #fotoMassa
+    {
+        height: 130vw !important;    
+        background-image: url(img/foto-sm_mobile.jpg);    
+        background-repeat: no-repeat;
+        background-size: 100% !important;
+        background-attachment: fixed;        
+    }
+
+    #sergioMassaTexto
+    {
+        display: block;
+        position:absolute;
+        top:40%;
+        left:10vw;
+        z-index: 2;
+        width:80%;
+        height: fit-content;
+    }
+
+    #sergio
+    {    
+        width:fit-content;
+        font-size:10vw;    
+        padding:2% !important;
+        margin: 0;
+    }
+
+    #massa
+    {    
+        width: fit-content;
+        font-size:20vw;  
+        position:relative;
+        margin:0 0 0 18%;
+        padding:0 1% 0 1% !important;
+
+    }
+
+    #divSergioMassa
+    {
+        display: none;
+    }
+
+    #divTextPub
+    {
+        height: fit-content;    
+    }
+
+    #textPub
+    {
+        font-size: 7.5vw;    
+        text-align:center;
+        width:100%;
+        margin-left:0;
+        padding: 6vh 8vw 2vh 8vw;
+    }
+
+    #textPubTwitter
+    {
+        margin-left: 27.5vw;    
+        font-size: 6vw; 
+        padding: 2vh 0 5vh 0;
+    }
+
+    #divSitios
+    {
+        height:250vw;
+        background-color: #0074BB;
+    }
+
+    #titleSitios
+    {        
+        font-size:7vw;
+        padding:4vh 0 1vh 0;
+        text-align: center;
+    }
+
+    #divImagenesSitios
+    {
+        display:block;
+        height:110vh;
+    }
+
+    .divClassImgSitios
+    {
+        height:51% !important;
+    }
+
+    .imgClassSitios
+    {
+        display:none;
+    }
+
+    .imgClassSitiosMobile
+    {
+        display: unset;
+        border: solid #00C2EA 2vw;    
+        border-radius:6%;
+        width:80%;    
+    }
+
+    .titleOver
+    {
+        padding-top:2.5vh;
+        padding-bottom:1.6vh;    
+        font-size:5vw;    
+    }
+
+
+    .divTextOverlay
+    {        
+        opacity: 0.8;
+        background-color:transparent;    
+        height:50%;
+    }
+
+        
+    .hrSitios
+    {
+        border:solid 1px;
+        margin: 0 2vw 0 2vw;
+    }
+
+    .textOver
+    {
+        padding:20px 5vw 0 5vw !important;    
+        font-size:4vw;
+    }
+
+    #titleFormulario
+    {        
+        font-size:7vw;
+        padding:3.5vw;
+        text-align: center;
+        margin: 5vw 0 0 0 !important;        
+    }  
+
+    #divFormulario
+    {
+        height:130vw;
+    }
+
+    #formulario
+    {
+        padding:5vw 10vw 0 10vw !important;    
+        text-align: center;
+    }
+
+    .form-group
+    {
+        height: 50px !important;
+        /* padding:20px 0 20px 0 !important; */
+    }
+        
+    #btnEnviar
+    {        
+        margin-top:5vw;
+        font-size:6vw;
+    }
+
+    
+    .navBarBottom
+    {
+        height:15vw;
+        font-size:5vw;
+        padding-left:0px;   
+        justify-content: center !important; 
+        position: absolute;
+        left:0;
+        bottom:0;
+    }
+
+    #hayAlternativa
+    {
+        display:none;
+    }
+    
+    #twitterBottom
+    {
+        padding-left:0 !important;
+    }
+}
