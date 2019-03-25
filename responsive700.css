@@ -1,0 +1,153 @@
+@media screen and (max-width: 780px)
+{
+    div
+    {
+        /* height: 50vh !important;         */
+        height: 40vh !important;
+    }
+
+    .navBar
+    {
+        height: 5vh !important;
+        font-size:1.5vh !important;
+    }
+
+    /* #fotoMassa
+    {
+        height: 40vh !important;
+    }
+
+    #divSergioMassa
+    {
+        height:40vh !important;
+    } */
+
+    .titleOver
+    {
+        padding-top:7vh;
+        padding-bottom: 3vh;
+    }
+
+    #textPub
+    {
+        padding:0 !important;
+        height: 70% !important;
+    }
+
+    
+
+    #divSitios
+    {
+        /* height:250vw; */
+        height: fit-content !important;
+        padding-bottom:4vh;
+        background-color: #0074BB;
+    }
+   
+    #divTitleSitios
+    {        
+        /* width:90%; */
+        margin-left:5%;
+        height: fit-content !important;
+    }
+
+    #titleSitios
+    {        
+        font-size:5vw;
+        /* padding:4vh 0 1vh 0; */
+        text-align: center;
+        padding-bottom:4vh;
+    }
+
+ 
+
+    #divImagenesSitios
+    {
+        display:block;
+        height:fit-content !important;
+        width:100%;
+    }
+
+    .divImgSitio
+    {
+        height:50% !important;
+    }
+
+     .divImgTxtSitios
+    {        
+        /* height:51% !important;         */
+        margin:auto !important;
+        margin-bottom:2vh !important;
+    } 
+
+    .imgClassSitios
+    {
+        display:none;
+    }
+
+    .imgClassSitiosMobile
+    {
+        display: unset;
+        border-radius:6%;
+        height:40vh !important;
+        /* border: solid #00C2EA 2vw;     */        
+        /* width:80%;     */
+    }
+
+    .titleOver
+    {
+        padding-top:2.5vh;
+        padding-bottom:1.6vh;    
+        font-size:3vw;    
+    }
+
+
+    .divTextOverlay
+    {        
+        opacity: 0.8;
+        background-color:transparent;    
+        /* height:50%;         */
+    }
+
+        
+    .hrSitios
+    {
+        border:solid 1px;
+        margin: 0 2vw 0 2vw;
+    }
+
+    .textOver
+    {
+        /* padding:20px 5vw 0 5vw !important;     */
+        font-size:2.5vw;
+    }
+    
+    
+    #divFormulario
+    {
+        height: fit-content !important;
+    }
+
+    #formulario
+    {
+        height:50vh !important;
+    }
+
+    .navBarBottom
+    {
+        height:12vw !important;
+        font-size:20px;
+    }
+
+    #navMenu
+    {
+        height:12vw !important;
+    } 
+    
+    #navRedes
+    {
+        height:12vw !important;
+    }
+
+
+}

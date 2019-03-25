@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="responsive.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="responsive700.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="responsive900.css" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
@@ -16,13 +18,19 @@
 </head>
 <body>
     <div class="navBar">
-        <a class="navWeb" href="#fotoMassa">INICIO</a>
-        <a class="navWeb" href="#divSitios">NUESTROS SITIOS</a>
-        <a class="navWeb" href="#divFormulario">SUMATE</a>
-        <a class="navRedes" href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <div id="navMenuTop">
+                <a class="navWeb" href="#fotoMassa">INICIO</a>
+                <a class="navWeb" href="#divSitios">NUESTROS SITIOS</a>
+                <a class="navWeb" href="#divFormulario">SUMATE</a>
+        </div>
+        <div id="navRedesTop">
+                <a style="padding-left:0" href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        
+        
     </div>
     <div id="fotoMassa">        
         <!-- <img src="img/foto-sm.JPG" alt=""> -->
@@ -39,18 +47,30 @@
     </div>
     <div id="divTextPub">
         <div id="textPub">            
-            "Los argentinos van a buscar que el próximo gobierno 
-            ponga en marcha el desarrollo, la  producción y el trabajo."            
+            "Los argentinos van a 
+            buscar que el próximo
+            gobierno ponga en
+            marcha el desarrollo,             
+            la  producción y 
+            el trabajo."            
         </div>
         <h3 id="textPubTwitter">@sergiomassa</h3>            	
     </div>
 
     <div id="divSitios">
-        <p id="titleSitios">Visita nuestros sitios</p>
+        <div id="divTitleSitios">
+            <p id="titleSitios">Visita nuestros sitios</p>
+        </div>
+        
         <div id="divImagenesSitios">
-            <div class="divClassImgSitios">
-                <img class="imgClassSitios" src="img/Portadas_Site-04.jpg" alt="Massa Directo">                
-                <img class="imgClassSitiosMobile" src="img/Portadas_Site_Movil_3_op.jpg" alt="Massa Directo">                
+
+            <div class="divImgTxtSitios" href="www.masadirecto.com" target="_blank">
+                
+                <div class="divImgSitio">
+                    <img class="imgClassSitios" src="img/Portadas_Site-04.jpg" alt="Massa Directo">                
+                    <img class="imgClassSitiosMobile" src="img/Portadas_Site_Movil_3_op.jpg" alt="Massa Directo">                    
+                </div>                
+                
                 <div class="divTextOverlay">
                     <p class="titleOver">Massa Directo</p>
                     <hr class="hrSitios">
@@ -59,9 +79,12 @@
                     realidad y actudalidad de la Argentina.</p>
                 </div>                
             </div>
-            <div class="divClassImgSitios">
-                <img class="imgClassSitios" src="img/Portadas_Site_portada.jpg" alt="Argentina de Pie">
-                <img class="imgClassSitiosMobile" src="img/Portadas_Site_movil_1_op.jpg" alt="Argentina de Pie">
+
+            <div class="divImgTxtSitios">
+                <div class="divImgSitio">
+                    <img class="imgClassSitios" src="img/Portadas_Site_portada.jpg" alt="Argentina de Pie">
+                    <img class="imgClassSitiosMobile" src="img/Portadas_Site_movil_1_op.jpg" alt="Argentina de Pie">
+                </div>
                 <div class="divTextOverlay">
                     <p class="titleOver">La Argentina de pie</p>
                     <hr class="hrSitios">
@@ -72,9 +95,11 @@
                         </p>
                 </div>               
             </div>
-            <div class="divClassImgSitios">
-                <img class="imgClassSitios" src="img/Portadas_Site-03.jpg" alt="Primer Votante">                
-                <img class="imgClassSitiosMobile" src="img/Portadas_Site_Movil_2_op.jpg" alt="Primer Votante">                
+            <div class="divImgTxtSitios">
+                <div class="divImgSitio">
+                    <img class="imgClassSitios" src="img/Portadas_Site-03.jpg" alt="Primer Votante">                
+                    <img class="imgClassSitiosMobile" src="img/Portadas_Site_Movil_2_op.jpg" alt="Primer Votante">                
+                </div>
                 <div class="divTextOverlay">
                     <p class="titleOver">Primer votante</p>
                     <hr class="hrSitios">
@@ -102,12 +127,16 @@
                     <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button>
             </form>
 
-            <div class="navBarBottom">                   
+            <div class="navBarBottom">   
+                <div id="navMenu">
                     <a id="twitterBottom" href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="" id="hayAlternativa" style="padding-left:55%">#HayAlternativa</a>
+                </div>
+                <div id="navRedes">
+                    <a href="" id="hayAlternativa">#HayAlternativa</a>
+                </div>  
             </div>
     </div>           
 

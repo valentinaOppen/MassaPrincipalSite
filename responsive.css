@@ -4,8 +4,6 @@
     body
     {
         width:100vw;
-        /* height: 100vh; */
-        /* background-color: red !important; */
     }
 
     a
@@ -13,28 +11,48 @@
         padding-left:10vw; 
     }
 
-
-    .navWeb
+    /* #region  NAVBAR*/
+    /* .navWeb
     {
         display:none;
+    } */
+
+    #navMenuTop
+    {
+        display:none;
+    }    
+
+    #navMenu
+    {
+        justify-content: center !important;
     }
 
     .navBar
     {
         position: absolute;
-        padding-left:30vw;
+        /* padding-left:30vw; */
+        padding-left:0 !important;
         height: 15vw !important; 
         width: 100vw;       
-        font-size:4vw;      
-        justify-content: center; 
+        font-size:5vw;              
     }
 
-    .navRedes
+    #navRedesTop
     {
         padding-left:0px !important
     }
 
+    #navRedes
+    {
+        display:none !important;
+        justify-content: center !important;
+    }
 
+    
+    
+    /* #endregion */
+
+    /* #region FOTO MASSA */
     #fotoMassa
     {
         height: 130vw !important;    
@@ -78,6 +96,9 @@
         display: none;
     }
 
+    /* #endregion */
+
+    /* #region SLOGAN */
     #divTextPub
     {
         height: fit-content;    
@@ -85,24 +106,39 @@
 
     #textPub
     {
-        font-size: 7.5vw;    
+        font-size: 6.5vw !important;     
         text-align:center;
+        height: auto !important;
         width:100%;
         margin-left:0;
-        padding: 6vh 8vw 2vh 8vw;
+        padding: 10vh 8vw 5vh 8vw !important;
+        
     }
 
     #textPubTwitter
     {
-        margin-left: 27.5vw;    
+        margin-left: 0;
         font-size: 6vw; 
         padding: 2vh 0 5vh 0;
+        text-align: center;
     }
+
+    /* #endregion */
+    
+    /* #region SITES */
 
     #divSitios
     {
-        height:250vw;
+        /* height:250vw; */
+        height: fit-content;
+        padding-bottom:4vh;
         background-color: #0074BB;
+    }
+   
+    #divTitleSitios
+    {        
+        /* width:90%; */
+        margin-left:5%;
     }
 
     #titleSitios
@@ -112,16 +148,21 @@
         text-align: center;
     }
 
+ 
+
     #divImagenesSitios
     {
         display:block;
-        height:110vh;
+        height:fit-content !important;
+        width:100%;
     }
 
-    .divClassImgSitios
-    {
-        height:51% !important;
-    }
+     .divImgTxtSitios
+    {        
+        /* height:51% !important;         */
+        margin:auto !important;
+        margin-bottom:2vh !important;
+    } 
 
     .imgClassSitios
     {
@@ -131,9 +172,9 @@
     .imgClassSitiosMobile
     {
         display: unset;
-        border: solid #00C2EA 2vw;    
         border-radius:6%;
-        width:80%;    
+        /* border: solid #00C2EA 2vw;     */        
+        /* width:80%;     */
     }
 
     .titleOver
@@ -148,7 +189,7 @@
     {        
         opacity: 0.8;
         background-color:transparent;    
-        height:50%;
+        /* height:50%;         */
     }
 
         
@@ -164,6 +205,10 @@
         font-size:4vw;
     }
 
+    /* #endregion */
+
+    
+    /* #region FORM */
     #titleFormulario
     {        
         font-size:7vw;
@@ -195,7 +240,9 @@
         font-size:6vw;
     }
 
-    
+    /* #endregion */
+
+    /* #region NAVBAR BOTTOM */
     .navBarBottom
     {
         height:15vw;
@@ -216,4 +263,9 @@
     {
         padding-left:0 !important;
     }
+
+    /* #endregion */
 }
+
+
+

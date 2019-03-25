@@ -18,6 +18,7 @@
 body{
     display: flex;
     flex-wrap: wrap;
+    font-family: chivoLight !important;
   }
 
 *{
@@ -36,15 +37,40 @@ div
     height: 100vh;
 }
 
+#navMenu
+{
+    height: 50px;    
+    justify-content: left !important;
+}
+
+#navMenuTop
+{
+    height: 50px !important;    
+    justify-content: left !important;
+}
+
+#navRedes
+{
+    height: 50px !important;    
+    text-align: right !important;
+}
+
+#navRedesTop
+{
+    height: 50px !important;    
+    text-align: right !important;
+}
+
 .navBar
 {
     height:50px;
+    width:100vw;
     background-color: #696969;
     color:white;
     font-family: chivoLight;
     font-size:15px;
-    padding-left:130px;   
-    justify-content: left !important; 
+    padding-left:7vw;   
+    /* justify-content: left !important;  */
     position:fixed !important;
     z-index: 2;
 }
@@ -54,20 +80,16 @@ a
     color:white !important;
     padding-left:40px;
     text-decoration: none;
+    white-space: nowrap;
 }
-
-.navRedes
-{
-    padding-left:500px !important
-}
-
 
 #fotoMassa
 {
-    /* height: 100% !important; */
     background-image: url(img/foto-sm_2.jpg);
-    background-size:cover;
+    /* background-size:cover; */
     background-attachment: fixed;        
+    background-repeat: no-repeat;
+    background-size: 100% !important;       
 }
 
 #imgMasaInicio
@@ -91,6 +113,7 @@ a
     background-color: rgba(0, 0, 0, 0.6);
     background: transparent !important;    
     width:100%;    
+    /* border:solid; */
 }
 
 #sergio
@@ -120,28 +143,28 @@ a
 {
     display: block;
     /* border:solid; */
-    width:100%;
-    /* height: 400px;
-    background-image: url */
+    width:100%;    
 }
 
 #textPub
 {
-    font-size: 50px;
-    /* margin: 50px 150px 0px 240px; */
+    font-size: 3.7vw;    
     width:70%;
     text-align: center;
-    margin-left:16%;
-    height:70%;
+    color:#696969;
+    font-family: chivoBold;
+    margin-left:16vw;
+    height:30vw;
     text-align: left;
+    padding: 35vh 0 30vh 0 !important;
 }
 
 #textPubTwitter
 {
     /* margin: 0px 100px 0px 275px; */
-    margin-left: 17%;
+    margin-left: 16%;
     color:#2F90C5;
-    font-size: 45px;    
+    font-size: 3.7vw;    
 }
 
 #divSitios
@@ -152,38 +175,61 @@ a
     display: block;    
 }
 
+#divTitleSitios
+{
+    height: fit-content;
+    width:90%;    
+    margin-left:5%;
+    padding-top:1.5vh;    
+    justify-content: left !important;
+}
+
 #titleSitios
 {
     color:white;
     font-family: chivoBold;
     font-size:40px;
-    padding:80px 0px 0px 120px;
+    /* padding:80px 0px 0px 14vw; */
+    padding:9vh 0px 0px 130px;
 }
 
 #divImagenesSitios
 {
     width:90% !important;
-    margin:5% 0 0 5%;
+    margin:3% 0 0 5%;
     height: 55% !important;
     padding-top:0px !important;
+    /* border: solid green; */
+}
+
+.divImgTxtSitios
+{
+    height:100% !important;        
+    width: fit-content;
+    margin:0 2vw 0 2vw;
+    position: relative;    
+    text-align: center;
+    border:solid #00C2EA 14px;
+    border-radius: 8%;
+    background-color:transparent;
     
 }
 
-.divClassImgSitios
+.divImgSitio
 {
-    height:60% !important;
-    width:100% !important;
-    padding:0;
-    position: relative;
-    display: inline-block;
-    text-align: center;
+    /* border:solid blue; */
+    height: 100%;
+    width: fit-content;    
+    background-color: transparent;    
+    border-radius: 20%;
 }
 
 .imgClassSitios
 {
-    border: solid #00C2EA 14px;
-    border-radius: 8%;
     height: 100% !important;
+    width:auto !important;
+    border-radius: 4%;
+
 }
 
 .imgClassSitiosMobile
@@ -195,28 +241,27 @@ a
 {
   position: absolute;
   display: inline-block;  
-  left:18%;
-  top:3.8%;
-  height: 92.5%;
-  width: 64.1%;
+  height: 100%;
+  width:100%;
   color: white;
   font-family: chivoLight;  
   font-size: 15px;
   opacity: 0;
   transition: .5s ease;
   background-color: #00575E;
+  border-radius: 6.5%;
   
 }
 
-.divClassImgSitios:hover .divTextOverlay
+.divImgTxtSitios:hover .divTextOverlay
 {
     opacity: 0.6;
 }
 
 .titleOver
 {
-    padding-top:110px;
-    padding-bottom:20px;
+    padding-top:10vh;
+    padding-bottom:5vh;
     font-family: chivoBold !important;
 
 }
@@ -279,8 +324,8 @@ a
     background-color: #696969;
     color:white;
     font-family: chivoLight;
-    font-size:15px;
-    padding-left:130px;   
+    font-size:20px;
+    padding-left:5vw;   
     justify-content: left !important; 
     /* position:fixed !important; */
     position: absolute;
@@ -291,4 +336,9 @@ a
 #twitterBottom
 {
     padding-left:100px !important;
+}
+
+#hayAlternativa
+{
+    padding-left:40%;
 }
