@@ -86,10 +86,13 @@ a
 #fotoMassa
 {
     background-image: url(img/foto-sm_2.jpg);
-    /* background-size:cover; */
-    background-attachment: fixed;        
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    display: block;
+    /* background-size:cover; */
     background-size: 100% !important;       
+    height: 100%;
 }
 
 #imgMasaInicio
@@ -105,13 +108,14 @@ a
 
 #sergioMassaTexto
 {
-    display: none;
+    visibility: hidden;
+    background: transparent !important;   
 }
 
 #divSergioMassa
 {    
     background-color: rgba(0, 0, 0, 0.6);
-    background: transparent !important;    
+    background-image: url(img/SergioMassa.png);  
     width:100%;    
     /* border:solid; */
 }
@@ -123,7 +127,7 @@ a
     color:white;
     font-size:55px;    
     padding:0 10px 0 10px !important;
-    /* position: absolute; */
+    position: absolute;
     z-index: -1;
 }
 
@@ -137,6 +141,12 @@ a
     margin-top:160px;
     margin-left:150px; */
 
+}
+
+.sergioMassaPNG 
+{
+    position: relative;
+    height: 100vh;
 }
 
 #divTextPub
