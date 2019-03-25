@@ -2,14 +2,41 @@
 {
     div
     {
-        /* height: 50vh !important;         */
-        height: 40vh !important;
+        height: 40vh;
     }
 
     .navBar
     {
         height: 5vh !important;
         font-size:1.5vh !important;
+    }
+    #fotoMassa
+    {
+        display: flex;
+        height: 275vw !important;    
+        background-image: url(img/foto-sm_mobile.jpg);    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;        
+    }
+    .sergioMassaPNG
+    {   
+        margin-right: 0px;
+        align-items: flex-end;
+        left: -110px;
+    }
+
+    .imgSergioMassaPNG 
+    {
+        display: none;
+    }
+
+    .imgSergioMassaMobilePNG
+    {
+        visibility: visible;
+        width: 40vh;
+        height: 40vh;
+        display: block;
     }
 
     /* #fotoMassa
