@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="responsive.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="responsive400.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="responsive700.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="responsive900.css" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -55,14 +56,14 @@
         <h3 id="textPubTwitter">@sergiomassa</h3>            	
     </div>
 
-    <div id="divSitios">
+    <div id="divSitios" class="container-fluid">
         <div id="divTitleSitios">
             <p id="titleSitios">Visita nuestros sitios</p>
         </div>
         
-        <div id="divImagenesSitios" style="cursor: pointer;" onclick="window.location='http://www.google.com';">
+        <div id="divImagenesSitios" class="row" style="cursor: pointer;" onclick="window.location='http://www.google.com';">
 
-            <div class="divImgTxtSitios" >
+            <div class="divImgTxtSitios" class="col">
                 
                 <div class="divImgSitio">
                     <img class="imgClassSitios" src="img/Portadas_Site-04.jpg" alt="Massa Directo">                
@@ -78,7 +79,7 @@
                 </div>                
             </div>
 
-            <div class="divImgTxtSitios">
+            <div class="divImgTxtSitios" class="col">
                 <div class="divImgSitio">
                     <img class="imgClassSitios" src="img/Portadas_Site_portada.jpg" alt="Argentina de Pie">
                     <img class="imgClassSitiosMobile" src="img/Portadas_Site_movil_1_op.jpg" alt="Argentina de Pie">
@@ -93,7 +94,8 @@
                         </p>
                 </div>               
             </div>
-            <div class="divImgTxtSitios">
+
+            <div class="divImgTxtSitios" class="col">
                 <div class="divImgSitio">
                     <img class="imgClassSitios" src="img/Portadas_Site-03.jpg" alt="Primer Votante">                
                     <img class="imgClassSitiosMobile" src="img/Portadas_Site_Movil_2_op.jpg" alt="Primer Votante">                
@@ -124,19 +126,18 @@
                     </div>
                     <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button>
             </form>
-
-            <div class="navBarBottom">   
-                <div id="navMenu">
-                    <a id="twitterBottom" href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div id="navRedes">
-                    <a href="" id="hayAlternativa">#HayAlternativa</a>
-                </div>  
-            </div>
-    </div>           
+    </div>         
+    <div class="navBarBottom" style="position:fixed">   
+        <div id="navMenu">
+            <a id="twitterBottom" href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/SergioMassa" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div id="navRedes">
+            <a href="" id="hayAlternativa">#HayAlternativa</a>
+        </div>  
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

@@ -91,13 +91,14 @@
     #divImagenesSitios
     {
         display:block;
-        height:fit-content !important;
-        width:100%;
+        height : 100%;
+        width  : 100%;
     }
 
     .divImgSitio
-    {
-        height:50% !important;
+    {   
+        height : 100%;
+        width  : 100%;
     }
 
      .divImgTxtSitios
@@ -157,7 +158,8 @@
 
     #formulario
     {
-        height:50vh !important;
+        height:42vh !important;
+        margin-bottom: 43px;
     }
 
     .navBarBottom

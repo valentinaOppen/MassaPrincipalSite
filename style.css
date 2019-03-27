@@ -34,7 +34,7 @@ div
     justify-content: center;
     font-weight: bold;    
     width: 100%;
-    height: 100vh;
+    height: 69vh;
 }
 
 #navMenu
@@ -165,6 +165,7 @@ a
 {
     display: block;
     /* border:solid; */
+    height: 76vh;
     width:100%;    
 }
 
@@ -178,7 +179,7 @@ a
     margin-left:16vw;
     height:30vw;
     text-align: left;
-    padding: 35vh 0 30vh 0 !important;
+    padding: 26vh 0 30vh 0 !important;
 }
 
 #textPubTwitter
@@ -191,10 +192,12 @@ a
 
 #divSitios
 {
-    /* border:solid; */
+    
+    height: fit-content;
     width:100%;
     background-color:#00A0DC;
     display: block;    
+    padding-bottom: 80px;
 }
 
 #divTitleSitios
@@ -208,27 +211,27 @@ a
 
 #titleSitios
 {
+    height: fit-content;
     color:white;
     font-family: chivoBold;
     font-size:40px;
-    /* padding:80px 0px 0px 14vw; */
     padding:9vh 0px 0px 130px;
 }
 
 #divImagenesSitios
 {
+    margin: 1vh 0 0 1vh;
     width:90% !important;
     margin:3% 0 0 5%;
     height: 55% !important;
     padding-top:0px !important;
-    /* border: solid green; */
 }
 
 .divImgTxtSitios
 {
     height:100% !important;        
     width: fit-content;
-    margin:0 2vw 0 2vw;
+    margin: 13px 2vw 0 2vw;
     position: relative;    
     text-align: center;
     border:solid #00C2EA 14px;

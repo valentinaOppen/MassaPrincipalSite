@@ -1,0 +1,23 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .divImgTxtSitios
+    {        
+        width: 100%;
+        margin:auto !important;
+        margin-bottom:2vh !important;
+    } 
+
+   .divFormulario {
+      margin-bottom: 38px;
+  }
+
+  .formulario {
+    margin-bottom: 43px;
+}
+
+}
