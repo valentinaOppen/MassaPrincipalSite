@@ -34,7 +34,7 @@ div
     justify-content: center;
     font-weight: bold;    
     width: 100%;
-    height: 69vh;
+    height: 59vh;
 }
 
 #navMenu
@@ -307,7 +307,6 @@ a
         background-color: #00BFDF;
         display:block !important;
         position: relative;
-        z-index: -1;
 }
 
 #titleFormulario
@@ -315,12 +314,12 @@ a
     color:white;
     font-family: chivoBold;
     font-size:40px;
-    padding:120px 0px 0px 130px;
+    padding: 80px 0px 0px 130px;
 }
 
 #formulario
 {
-    padding:50px 150px 0 150px;    
+    padding:0px 150px 0 150px;    
 }
 
 .form-group

@@ -10,9 +10,9 @@ $(document).ready(function() {
         }
 
         theBtn.addClass('disabled')  
-            var data = $(this).serialize();
+            var data = $("#formulario").serialize();
             $.ajax({
-            url: 'mail.php',
+            url: '/api/mail.php',
             type: 'POST',
             data: data,
         }).done(function(data) {
